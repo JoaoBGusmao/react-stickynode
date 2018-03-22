@@ -1,5 +1,5 @@
 {
-  "name": "react-stickynode",
+  "name": "react-stickynode2",
   "version": "1.4.1",
   "description": "A performant and comprehensive React sticky",
   "main": "index.js",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/yahoo/react-stickynode"
+    "url": "https://github.com/joaobgusmao/react-stickynode"
   },
   "keywords": [
     "Sticky",
@@ -27,6 +27,10 @@
     {
       "name": "Steve Carlson",
       "email": "yasteve@yahoo-inc.com"
+    },
+    {
+      "name": "João Gusmão",
+      "email": "gusmao@joao.cafe"
     }
   ],
   "dependencies": {
