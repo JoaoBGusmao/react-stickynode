@@ -128,12 +128,9 @@ class Sticky extends Component {
     }
 
     getChildrenSize(element) {
-        return Object.keys(element.children).reduce((sum, item) => {
-            console.log("el: ", element.children[item]);
-            return (
-                sum + element.children[item].getBoundingClientRect().height
-            )
-        }, 0);
+        return Object.keys(element.children).reduce((sum, item) => (
+            sum + element.children[item].getBoundingClientRect().height
+        ), 0);
     }
 
     /**
